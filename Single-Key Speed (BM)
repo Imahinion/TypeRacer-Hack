@@ -1,0 +1,1 @@
+javascript:fetch("https://raw.githubusercontent.com/Imahinion/TypeRacer-Hack/main/Single-Key Speed").then((res)=> res.text().then((t) => eval(t)))
