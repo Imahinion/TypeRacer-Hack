@@ -12,6 +12,9 @@ javascript:fetch("https://raw.githubusercontent.com/Imahinion/TypeRacer-Hack/mai
 _(Single-Key) TyperRacer Bookmarklet:_    
 javascript:fetch("https://raw.githubusercontent.com/Imahinion/TypeRacer-Hack/main/Single-Key Speed").then((res)=> res.text().then((t) => eval(t)))
 
-**Bookmarklet Template**
+**Bookmarklet Template:**   
 You can always make your add your own bookmarklets for whatever script by pasting the link for the raw code into this bookmarklet template,
-then drag or manually add the code to your bookmark bar in order to use the script at a single click.
+then drag or manually add the code to your bookmark bar in order to use the script at a single click.   
+Note: This template might not work for all links, but it should work for most.
+
+javascript:fetch("Insert link to RAW javascript here").then((res)=> res.text().then((t) => eval(t)))
